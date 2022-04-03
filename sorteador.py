@@ -17,7 +17,6 @@ def main():
 
         if naoSorteados[0] == "":
             print("\nTodos os nomes já foram sorteados!\nResetando lista...")
-            texto_saida["text"] = "Todos os nomes já foram sorteados!\nResetando lista..." # saída na interface
             naoSorteados = jaSorteados
             jaSorteados = []
 
